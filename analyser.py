@@ -11,7 +11,7 @@ def analyze_log(file_path):
     
     print("\n--- Error Report ---")
     for error, count in errors.items():
-        print(f"{error}: {count} times")
+        print(f"{error}: {count} t")
 
 
 if __name__ == "__main__":
